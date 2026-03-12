@@ -15,7 +15,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
       <div className="max-w-6xl mx-auto px-6 flex items-center justify-between h-16">
         <a href="#about" className="font-heading text-lg font-semibold tracking-tight text-foreground">
-          Portfolio
+          Cecilia Hadid
         </a>
 
         {/* Desktop */}

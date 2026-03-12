@@ -7,21 +7,40 @@ const ExperienceSection = () => (
         <p className="text-sm font-medium text-primary tracking-widest uppercase mb-2 text-center">Career</p>
       </ScrollReveal>
       <ScrollReveal delay={0.1}>
-        <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground text-center mb-16">Experience</h2>
+        <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground text-center mb-16">
+          Experience
+        </h2>
       </ScrollReveal>
 
       {/* Experience 1 */}
       <ScrollReveal delay={0.2}>
         <div className="mb-12">
           <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between mb-1">
-            <h3 className="font-heading text-xl font-semibold text-foreground">Legal Intern</h3>
-            <span className="text-sm text-accent font-medium">Summer 2024</span>
+            <h3 className="font-heading text-xl font-semibold text-foreground">Pre-Law Intern</h3>
+            <span className="text-sm text-accent font-medium">May 2025 – Nov 2025</span>
           </div>
-          <p className="text-muted-foreground mb-3">Law Firm LLP — City, State</p>
-          <p className="text-sm text-muted-foreground leading-relaxed">
-            Conducted legal research, drafted memoranda, and assisted with case preparation for civil litigation matters. 
-            Collaborated with senior attorneys on client intake and discovery processes.
+
+          <p className="text-muted-foreground mb-3">
+            Brevard and Seminole Public Defender — Melbourne, Florida, United States
           </p>
+
+          <ul className="text-sm text-muted-foreground leading-relaxed list-disc pl-5 space-y-2">
+            <li>
+              Conducted legal case research and drafted motions that contributed to the resolution
+              and dismissal of multiple cases, with one motion scheduled for argument at trial.
+            </li>
+            <li>
+              Assisted in trial preparation by organizing exhibits, reviewing discovery materials,
+              speaking with witnesses, and taking notes at depositions.
+            </li>
+            <li>
+              Facilitated client communication with attorneys to gather case information and
+              provide updates on case and court details.
+            </li>
+            <li>
+              Gained courtroom and litigation exposure through observing hearings and trials.
+            </li>
+          </ul>
         </div>
       </ScrollReveal>
 
@@ -29,14 +48,30 @@ const ExperienceSection = () => (
       <ScrollReveal delay={0.3}>
         <div className="mb-12">
           <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between mb-1">
-            <h3 className="font-heading text-xl font-semibold text-foreground">Research Assistant</h3>
-            <span className="text-sm text-accent font-medium">2022 – 2023</span>
+            <h3 className="font-heading text-xl font-semibold text-foreground">
+              Operations Assistant
+            </h3>
+            <span className="text-sm text-accent font-medium">May 2024 – Aug 2024</span>
           </div>
-          <p className="text-muted-foreground mb-3">Professor Name — University Name</p>
-          <p className="text-sm text-muted-foreground leading-relaxed">
-            Assisted with research on constitutional law topics, compiled case law databases, 
-            and co-authored a published article on First Amendment jurisprudence.
+
+          <p className="text-muted-foreground mb-3">
+            Purdue Recreation & Wellness — West Lafayette, Indiana, United States
           </p>
+
+          <ul className="text-sm text-muted-foreground leading-relaxed list-disc pl-5 space-y-2">
+            <li>
+              Performed routine maintenance and assisted with locker management and equipment
+              setup to maintain smooth operations in a fast-paced environment.
+            </li>
+            <li>
+              Delivered excellent customer service by assisting clients with inquiries and
+              ensuring satisfaction.
+            </li>
+            <li>
+              Collaborated with administration to streamline daily operations and improve
+              operational efficiency.
+            </li>
+          </ul>
         </div>
       </ScrollReveal>
 
@@ -46,8 +81,14 @@ const ExperienceSection = () => (
           <h3 className="font-heading text-lg font-semibold text-foreground mb-4">Skills</h3>
           <div className="flex flex-wrap gap-2">
             {[
-              "Legal Research", "Westlaw", "LexisNexis", "Legal Writing",
-              "Contract Drafting", "Case Analysis", "Public Speaking", "Negotiation",
+              "Legal Research",
+              "Westlaw",
+              "LexisNexis",
+              "Legal Writing",
+              "Contract Drafting",
+              "Case Analysis",
+              "Public Speaking",
+              "Negotiation",
             ].map((skill) => (
               <span
                 key={skill}

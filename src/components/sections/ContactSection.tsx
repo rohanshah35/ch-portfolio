@@ -12,21 +12,21 @@ const ContactSection = () => (
       </ScrollReveal>
       <ScrollReveal delay={0.2}>
         <p className="text-muted-foreground mb-12 leading-relaxed">
-          Interested in connecting? Feel free to reach out via email or LinkedIn.
+          Feel free to reach out via email or LinkedIn!
         </p>
       </ScrollReveal>
 
       <ScrollReveal delay={0.3}>
         <div className="space-y-6">
           <a
-            href="mailto:your.email@example.com"
+            href="mailto:chadid@purdue.edu"
             className="flex items-center justify-center gap-3 text-foreground hover:text-primary transition-colors"
           >
             <Mail size={18} />
-            <span className="text-sm font-medium">your.email@example.com</span>
+            <span className="text-sm font-medium">chadid@purdue.edu</span>
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/cecilia-hadid/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-3 text-foreground hover:text-primary transition-colors"
@@ -36,14 +36,14 @@ const ContactSection = () => (
           </a>
           <div className="flex items-center justify-center gap-3 text-muted-foreground">
             <MapPin size={18} />
-            <span className="text-sm">City, State</span>
+            <span className="text-sm">West Lafayette, IN</span>
           </div>
         </div>
       </ScrollReveal>
     </div>
 
     <div className="absolute bottom-6 left-0 right-0 text-center">
-      <p className="text-xs text-muted-foreground">© 2026 Your Name. All rights reserved.</p>
+      <p className="text-xs text-muted-foreground">© 2026 Cecilia Hadid. All rights reserved.</p>
     </div>
   </section>
 );
