@@ -44,21 +44,23 @@ const EducationSection = () => (
         </div>
       </ScrollReveal>
 
-      {/* Test Scores */}
+      {/* Test Scores & Honors */}
       <ScrollReveal delay={0.4}>
         <div>
-          <h3 className="font-heading text-lg font-semibold text-foreground mb-4">Test Scores</h3>
+          <h3 className="font-heading text-lg font-semibold text-foreground mb-4">Test Scores & Honors</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-            {[
-              { label: "LSAT", score: "17X" },
-              { label: "GPA", score: "3.X" },
-              { label: "GRE", score: "32X" },
-            ].map((t) => (
-              <div key={t.label} className="bg-secondary rounded-md p-4 text-center">
-                <p className="text-2xl font-heading font-bold text-primary">{t.score}</p>
-                <p className="text-xs text-muted-foreground mt-1">{t.label}</p>
-              </div>
-            ))}
+            <div className="bg-secondary rounded-md p-4 text-center">
+              <p className="text-2xl font-heading font-bold text-primary">17X</p>
+              <p className="text-xs text-muted-foreground mt-1">LSAT</p>
+            </div>
+            <div className="bg-secondary rounded-md p-4 text-center">
+              <p className="text-sm font-heading font-semibold text-primary">Dean's List</p>
+              <p className="text-xs text-muted-foreground mt-1">Academic Honor</p>
+            </div>
+            <div className="bg-secondary rounded-md p-4 text-center">
+              <p className="text-sm font-heading font-semibold text-primary">Magna Cum Laude</p>
+              <p className="text-xs text-muted-foreground mt-1">Graduation Honor</p>
+            </div>
           </div>
         </div>
       </ScrollReveal>
