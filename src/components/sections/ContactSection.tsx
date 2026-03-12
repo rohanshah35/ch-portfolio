@@ -2,7 +2,7 @@ import { Mail, Linkedin, MapPin } from "lucide-react";
 import ScrollReveal from "../ScrollReveal";
 
 const ContactSection = () => (
-  <section id="contact" className="min-h-screen flex items-center justify-center px-6 py-24 bg-secondary/30">
+  <section id="contact" className="min-h-screen flex flex-col items-center justify-center px-6 py-24 bg-secondary/30 relative">
     <div className="max-w-md w-full text-center">
       <ScrollReveal>
         <p className="text-sm font-medium text-primary tracking-widest uppercase mb-2">Connect</p>
@@ -40,12 +40,10 @@ const ContactSection = () => (
           </div>
         </div>
       </ScrollReveal>
+    </div>
 
-      <ScrollReveal delay={0.4}>
-        <div className="mt-16 pt-8 border-t border-border">
-          <p className="text-xs text-muted-foreground">© 2026 Your Name. All rights reserved.</p>
-        </div>
-      </ScrollReveal>
+    <div className="absolute bottom-6 left-0 right-0 text-center">
+      <p className="text-xs text-muted-foreground">© 2026 Your Name. All rights reserved.</p>
     </div>
   </section>
 );
