@@ -16,13 +16,13 @@ const AboutSection = () => (
       {/* Bio */}
       <div className="space-y-4 text-center md:text-left">
         <div>
-          <p className="text-sm font-medium text-primary tracking-widest uppercase mb-2">Pre-Law Student</p>
+          <p className="text-sm font-medium text-primary tracking-widest uppercase mb-2">About</p>
           <h1 className="font-heading text-3xl md:text-4xl font-bold text-foreground leading-tight">
             Cecilia Hadid
           </h1>
         </div>
         <p className="text-muted-foreground text-sm leading-relaxed max-w-lg">
-          Hi, nice to see you here! I’m currently a pre-law student interested in the intersection of law, psychology, and society, and I’m passionate about understanding how legal systems shape the way people and communities function. Outside of academics, you’ll usually find me reading, traveling somewhere new, or getting a workout in. And, of course, I love horses!
+          Coming soon!
         </p>
       </div>
     </div>

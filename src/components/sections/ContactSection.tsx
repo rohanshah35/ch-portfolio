@@ -17,7 +17,7 @@ const ContactSection = () => (
       </ScrollReveal>
 
       <ScrollReveal delay={0.3}>
-        <div className="space-y-6">
+        <div className="space-y-4">
           <a
             href="mailto:chadid@purdue.edu"
             className="flex items-center justify-center gap-3 text-foreground hover:text-primary transition-colors"
@@ -32,12 +32,8 @@ const ContactSection = () => (
             className="flex items-center justify-center gap-3 text-foreground hover:text-primary transition-colors"
           >
             <Linkedin size={18} />
-            <span className="text-sm font-medium">LinkedIn Profile</span>
+            <span className="text-sm font-medium">LinkedIn</span>
           </a>
-          <div className="flex items-center justify-center gap-3 text-muted-foreground">
-            <MapPin size={18} />
-            <span className="text-sm">West Lafayette, IN</span>
-          </div>
         </div>
       </ScrollReveal>
     </div>

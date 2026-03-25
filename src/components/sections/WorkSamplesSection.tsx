@@ -2,10 +2,10 @@ import { FileText, ExternalLink } from "lucide-react";
 import ScrollReveal from "../ScrollReveal";
 
 const samples = [
-  { title: "First Amendment Analysis", type: "Legal Memorandum", href: "#" },
-  { title: "Contract Law Brief", type: "Case Brief", href: "#" },
-  { title: "Policy Reform Proposal", type: "Research Paper", href: "#" },
-  { title: "Mock Trial Argument", type: "Oral Advocacy", href: "#" },
+  { title: "TBD", type: "Coming Soon", href: "#" },
+  { title: "TBD", type: "Coming Soon", href: "#" },
+  { title: "TBD", type: "Coming Soon", href: "#" },
+  { title: "TBD", type: "Coming Soon", href: "#" },
 ];
 
 const WorkSamplesSection = () => (

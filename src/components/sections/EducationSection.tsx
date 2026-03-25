@@ -17,7 +17,7 @@ const EducationSection = () => (
 
       {/* Purdue University */}
       <ScrollReveal delay={0.2}>
-        <div className="mb-12">
+        <div className="mb-10 bg-card/40 border border-border rounded-lg p-6">
           <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between mb-1">
             <h3 className="font-heading text-xl font-semibold text-foreground">
               Purdue University
@@ -51,7 +51,7 @@ const EducationSection = () => (
 
       {/* Melbourne Central Catholic High School */}
       <ScrollReveal delay={0.3}>
-        <div className="mb-12">
+        <div className="mb-10 bg-card/40 border border-border rounded-lg p-6">
           <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between mb-1">
             <h3 className="font-heading text-xl font-semibold text-foreground">
               Melbourne Central Catholic High School
@@ -81,33 +81,35 @@ const EducationSection = () => (
       {/* Test Scores, Honors & Certifications */}
       <ScrollReveal delay={0.4}>
         <div>
-          <h3 className="font-heading text-lg font-semibold text-foreground mb-4">
+          <h3 className="font-heading text-lg font-semibold text-foreground mb-4 text-center">
             Test Scores, Honors, & Certifications
           </h3>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
 
             {/* LSAT */}
-            <div className="bg-secondary rounded-md p-4 text-center">
-              <p className="text-xl font-heading font-bold text-primary">175</p>
-              <p className="text-xs text-muted-foreground mt-1">LSAT</p>
+            <div className="bg-card/40 border border-border rounded-lg p-4 text-center">
+              <p className="text-xl font-heading font-bold text-foreground">TBD</p>
+              <p className="text-xs text-primary mt-1">LSAT</p>
             </div>
 
             {/* Dean's List */}
-            <div className="bg-secondary rounded-md p-4 text-center">
-              <p className="text-sm font-heading font-semibold text-primary">Dean’s List</p>
-              <p className="text-xs text-muted-foreground mt-1">5 Semesters</p>
+            <div className="bg-card/40 border border-border rounded-lg p-4 text-center">
+              <p className="text-sm font-heading font-semibold text-foreground">
+                Dean’s List & Semesters Honors
+              </p>
+              <p className="text-xs text-primary mt-1">5 Semesters</p>
             </div>
 
             {/* Certification */}
-            <div className="bg-secondary rounded-md p-4 text-center">
-              <p className="text-sm font-heading font-semibold text-primary">
+            <div className="bg-card/40 border border-border rounded-lg p-4 text-center">
+              <p className="text-sm font-heading font-semibold text-foreground">
                 A Law Student's Toolkit
               </p>
-              <p className="text-xs text-muted-foreground mt-1">
+              <p className="text-xs text-primary mt-1">
                 Yale University · Issued Jul 2024
               </p>
-              <p className="text-xs text-muted-foreground">
+              <p className="text-xs text-primary">
                 Credential ID: 8XA4KKTESSRN
               </p>
             </div>

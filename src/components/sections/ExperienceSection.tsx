@@ -14,7 +14,7 @@ const ExperienceSection = () => (
 
       {/* Experience 1 */}
       <ScrollReveal delay={0.2}>
-        <div className="mb-12">
+        <div className="mb-10 bg-card/40 border border-border rounded-lg p-6">
           <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between mb-1">
             <h3 className="font-heading text-xl font-semibold text-foreground">Pre-Law Intern</h3>
             <span className="text-sm text-accent font-medium">May 2025 – Nov 2025</span>
@@ -46,7 +46,7 @@ const ExperienceSection = () => (
 
       {/* Experience 2 */}
       <ScrollReveal delay={0.3}>
-        <div className="mb-12">
+        <div className="mb-10 bg-card/40 border border-border rounded-lg p-6">
           <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between mb-1">
             <h3 className="font-heading text-xl font-semibold text-foreground">
               Operations Assistant
