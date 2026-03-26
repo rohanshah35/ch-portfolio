@@ -89,7 +89,7 @@ const EducationSection = () => (
 
             {/* LSAT */}
             <div className="bg-card/40 border border-border rounded-lg p-4 text-center">
-              <p className="text-xl font-heading font-bold text-foreground">TBD</p>
+              <p className="text-xl font-heading font-bold text-foreground">Soon</p>
               <p className="text-xs text-primary mt-1">LSAT</p>
             </div>
 

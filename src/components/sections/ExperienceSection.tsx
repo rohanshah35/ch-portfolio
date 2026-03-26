@@ -20,9 +20,14 @@ const ExperienceSection = () => (
             <span className="text-sm text-accent font-medium">May 2025 – Nov 2025</span>
           </div>
 
-          <p className="text-muted-foreground mb-3">
-            Brevard and Seminole Public Defender — Melbourne, Florida, United States
-          </p>
+          <div className="mb-4">
+            <p className="text-foreground/90 font-medium">
+              Brevard and Seminole Public Defender
+            </p>
+            <p className="text-xs text-foreground/60 mt-0.5">
+              Melbourne, Florida, United States
+            </p>
+          </div>
 
           <ul className="text-sm text-muted-foreground leading-relaxed list-disc pl-5 space-y-2">
             <li>
@@ -54,9 +59,14 @@ const ExperienceSection = () => (
             <span className="text-sm text-accent font-medium">May 2024 – Aug 2024</span>
           </div>
 
-          <p className="text-muted-foreground mb-3">
-            Purdue Recreation & Wellness — West Lafayette, Indiana, United States
-          </p>
+          <div className="mb-4">
+            <p className="text-foreground/90 font-medium">
+              Purdue Recreation & Wellness
+            </p>
+            <p className="text-xs text-foreground/60 mt-0.5">
+              West Lafayette, Indiana, United States
+            </p>
+          </div>
 
           <ul className="text-sm text-muted-foreground leading-relaxed list-disc pl-5 space-y-2">
             <li>
